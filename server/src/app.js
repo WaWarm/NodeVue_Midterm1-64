@@ -1,5 +1,5 @@
 let express = require('express');
-const {sequelize} = require('./models');
+const {sequelize} = require('./ModelsSalad');
 let cors = require('cors')
 const config = require('./config/config');
 
